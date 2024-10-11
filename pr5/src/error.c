@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define STDERR_FILENO 1
 
 void redirectErrorsToLog(char *path) {
     FILE *file = fopen(path, "w");
