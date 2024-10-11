@@ -1,6 +1,6 @@
 #ifndef PROCESSES_H
 #define PROCESSES_H
 
-void listProcesses(){}
+void listProcesses();
 
 #endif
