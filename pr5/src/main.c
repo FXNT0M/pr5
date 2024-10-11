@@ -7,15 +7,6 @@
 #include "log.h"
 #include "error.h"
 
-void printUsage() {
-    printf("Usage:\n"
-           "  -u, --users       List users and their home directories.\n"
-           "  -p, --processes   List running processes sorted by PID.\n"
-           "  -h, --help        Show this help message.\n"
-           "  -l PATH, --log PATH Redirect output to the specified file.\n"
-           "  -e PATH, --errors PATH Redirect error output to the specified file.\n");
-}
-
 int main(int argc, char *argv[]) {
     if (argc < 2) {
         printUsage();
