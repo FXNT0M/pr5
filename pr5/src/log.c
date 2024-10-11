@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define STDOUT_FILENO 1
 
 void redirectOutputToLog(char *path) {
     FILE *file = fopen(path, "w");
